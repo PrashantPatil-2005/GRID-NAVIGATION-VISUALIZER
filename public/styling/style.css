@@ -3,12 +3,12 @@
 /* General styling */
 body {
     background-color: white;
-    color: red;
+    color:black;
     font-family: Arial, sans-serif;
   }
   
   .navbar-inverse {
-    background-color:  rgb(205, 100, 10);
+    background-color:  rgb(215, 141, 5);
     border-color: white;
   }
   
@@ -19,12 +19,12 @@ body {
   
   .navbar-inverse .navbar-brand:hover,
   .navbar-inverse .navbar-nav > li > a:hover {
-    color: rgb(215, 119, 5);
+    color: rgb(215, 141, 5);
     background-color: white;
   }
   
   .navbar-inverse .dropdown-menu {
-    background-color:  rgb(215, 119, 5);
+    background-color:  rgb(215, 141, 5);
     color: white;
   }
   
@@ -34,19 +34,19 @@ body {
   
   .navbar-inverse .dropdown-menu > li > a:hover {
     background-color: white;
-    color:  rgb(215, 119, 5);
+    color:  rgb(215, 141, 5);
   }
   
   /* Button styles *
   .btn-default {
-    background-color: rgb(215, 119, 5);
+    background-color:  rgb(215, 141, 5);
     color: white;
     border-color: white;
   }
   
   .btn-default:hover {
     background-color: white;
-    color:  rgb(215, 119, 1);
+    color: rgb(215, 141, 5);
     border-color: red;
   }
   
@@ -66,7 +66,7 @@ body {
   }
   
   #mainText ul li:nth-child(1) div {
-    background-color: #ff4d4d; /* Start Node */
+    background-color: hsl(0, 100%, 65%); /* Start Node */
   }
   
   #mainText ul li:nth-child(2) div {
@@ -111,13 +111,13 @@ body {
   #mainGrid {
     margin: 20px auto;
     width: 90%;
-    border: 2px solid red;
+    border: 2px black;
   }
   
   #algorithmDescriptor {
-    color: red;
+    color: black;
     font-weight: bold;
     text-align: center;
     margin: 10px 0;
   }
-  
+       
